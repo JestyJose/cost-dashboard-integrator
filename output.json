@@ -1,0 +1,33 @@
+{
+    "submitted_by": "jestyjose@mulearn",
+    "services": {
+        "EC2": {
+            "total_cost": 125.50,
+            "resources": [
+                {
+                    "resource_id": 1,
+                    "resource_name": "web-server",
+                    "cost": 75.50,
+                    "billing_month": "2026-06"
+                },
+                {
+                    "resource_id": 2,
+                    "resource_name": "api-server",
+                    "cost": 50.00,
+                    "billing_month": "2026-06"
+                }
+            ]
+        },
+        "S3": {
+            "total_cost": 30.25,
+            "resources": [
+                {
+                    "resource_id": 3,
+                    "resource_name": "backup-bucket",
+                    "cost": 30.25,
+                    "billing_month": "2026-06"
+                }
+            ]
+        }
+    }
+}
