@@ -12,6 +12,14 @@ Generate AWS cost dashboard JSON from PostgreSQL data.
 
 pip install -r requirements.txt
 
+## Database Tables
+
+This implementation works with:
+
+- aws_resources
+- aws_costs
+- top_cost_resources
+
 ## Run
 
 python app.py
