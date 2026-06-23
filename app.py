@@ -21,7 +21,7 @@ ON r.resource_id = c.resource_id
 rows = cursor.fetchall()
 
 dashboard = {
-    "submitted_by": "your_muid",
+    "submitted_by": "jestyjose@mulearn",
     "services": {}
 }
 
